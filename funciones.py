@@ -13,6 +13,11 @@ def mostrarLibros():
     for i in matrizLibros:
         print(i);
 
+def eliminarlibro():
+    libroeliminar=input("Ingrese el libro que desea eliminar: ");
+    if libroeliminar in matrizLibros:
+        matrizLibros.remove(libroeliminar);
+
 
     
 

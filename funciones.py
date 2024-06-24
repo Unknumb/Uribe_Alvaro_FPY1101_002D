@@ -9,6 +9,10 @@ def agregarLibro():
     listaLibros=[nuevoLibro];
     matrizLibros.append(listaLibros);
 
+def mostrarLibros():
+    for i in matrizLibros:
+        print(i);
+
 
     
 

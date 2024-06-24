@@ -8,4 +8,3 @@ print("5. Guardar colección en un archivo")
 print("6. Salir del programa")
 
 
-print("nicolaoi")

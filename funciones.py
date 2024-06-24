@@ -1,6 +1,16 @@
 
-matrizLibros=[]
+matrizLibros=[
+
+];
 
 
 def agregarLibro():
-    print("Hola")
+    nuevoLibro=input("Ingrese el libreo que desea agregar: ");
+    listaLibros=[nuevoLibro];
+    matrizLibros.append(listaLibros);
+
+
+    
+
+
+
